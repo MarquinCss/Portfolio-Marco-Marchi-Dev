@@ -622,6 +622,9 @@ footer {
   gap: 30px;
 
 }
+footer{
+ padding-top:10px; 
+}
 
 footer h3 {
   color: #fff;
