@@ -7,7 +7,32 @@
 
 body {
   background-color: #08070B;
+  overflow-x:hidden;
 }
+body::-webkit-scrollbar {
+  width: 12px;            
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;     
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0035c8;  
+  border-radius: 20px;      
+  border: 3px solid #00fff2; 
+}
+
+.dark-mode body::-webkit-scrollbar-thumb{
+   background-color: #10fdd5;  
+  border-radius: 20px;      
+  border: 3px solid #00ff95; 
+}
+
+.dark-mode body::-webkit-scrollbar-track {
+  background:#ddc0c0;     
+}
+
 
 html {
   scroll-behavior: smooth;
