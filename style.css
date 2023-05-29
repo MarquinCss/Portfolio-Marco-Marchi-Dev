@@ -9,6 +9,7 @@ body {
   background-color: #08070B;
   overflow-x:hidden;
 }
+
 body::-webkit-scrollbar {
   width: 12px;            
 }
@@ -30,7 +31,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dark-mode body::-webkit-scrollbar-track {
-  background:#ddc0c0;     
+  background-color:#ddc0c0;     
 }
 
 
