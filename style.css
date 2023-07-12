@@ -221,7 +221,7 @@ main h2 {
 
 main img {
   border-radius: 100%;
-  width:50%;
+  width:500px;
   transition: 2s;
   filter: grayscale(100%);
   animation: subir-descer 3s infinite;
