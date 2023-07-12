@@ -221,7 +221,7 @@ main h2 {
 
 main img {
   border-radius: 100%;
-  width: 300px;
+  width:100%;
   height: 300px;
   transition: 2s;
   filter: grayscale(100%);
