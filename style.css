@@ -220,10 +220,10 @@ main h2 {
 }
 
 main img {
-  border-radius: 100%;
-  width:500px;
-  height:500px;
-  object-fit:cover;
+	border-radius:100%;
+  width:350px;
+  height:300px;
+  object-fit:contain;
   transition: 2s;
   filter: grayscale(100%);
   animation: subir-descer 3s infinite;
@@ -515,6 +515,13 @@ main img:hover {
 
 }
 
+.cont-modal{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
 .modal1 video {
   width: 400px;
   height: 250px;
@@ -791,6 +798,21 @@ footer h3 {
   .menu-open .menu {
     display: flex;
   }
+  
+  .fechar {
+  position: absolute;
+  top: -10px;
+  right: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: hotpink;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+
+}
 
 
 
