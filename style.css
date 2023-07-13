@@ -222,6 +222,8 @@ main h2 {
 main img {
   border-radius: 100%;
   width:500px;
+  height:500px;
+  object-fit:cover;
   transition: 2s;
   filter: grayscale(100%);
   animation: subir-descer 3s infinite;
